@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="https://errornogo.com/cdn/shop/files/blue-screen-smile-hoodie-close-shot.png?v=1747408094&width=1445">
+    <title>BSOD Generator</title>
+</head>
+<body>
+    <div id="main">
+        <div id="winMenu">
+            - ▢ <span class="red">X</span>
+        </div>
+         <div id="cols">
+            <label>Emote</label>
+            <input id="emote" placeholder="Default: Sad Emote" value=":(">
+        </div>
+        <br>
+        <div id="cols">
+            <label>Windows BSoD Text</label>
+            <input id="wt1" placeholder="What windows always displays when you get BSoD" value="Your PC ran into a problem and needs to restart. We're just collecting some error info, and then we'll restart for you.">
+        </div>
+        <br>
+        <div id="cols">
+            <label>Stop Code</label>
+            <input id="stopcode" placeholder="Place stop code" value="IRQL_NOT_LESS_OR_EQUAL">
+        </div>
+        <br>
+        <div id="cols">
+            <label>Background</label>
+            <input type="color" id="bg" placeholder="#0078D7" value="#0078D7">
+        </div>
+        <br>
+        <div id="cols">
+            <label>Color</label>
+            <input type="color" id="textcolor" placeholder="#FFFFFF" value="#FFFFFF">
+        </div>
+        <br>
+        <div id="cols">
+            <label>Failed File</label>
+            <input id="whatfailed" placeholder="myfault.sys" value="myfault.sys">
+        </div>
+        <br>
+        <button id="forcebsod">Generate!</button>
+    </div>
+</body>
+</html>
