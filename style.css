@@ -82,5 +82,7 @@ div#winMenu {
 
 a {
   position: absolute;
-  left: 0;
+  left: 2px;
+  bottom: 2px;
+  color: white;
 }
