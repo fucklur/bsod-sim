@@ -79,3 +79,8 @@ div#winMenu {
   border-top-right-radius: 6px;
   margin: auto;
 }
+
+a {
+  position: absolute;
+  left: 0;
+}
