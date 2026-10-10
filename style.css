@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'Segoe UI Historic';
+  src: url('SegoeUIHistoric/SegoeUIHistoric.ttf') format('truetype');
+}
+
+body {
+  font-family: "Segoe UI Historic", sans-serif;
+  font-weight: 500;
+  background: linear-gradient(180deg, #000000, #777777);
+  color: white;
+  height: 100vh;
+  background-attachment: fixed;
+  overflow-y: hidden;
+  margin: auto;
+}
+
+div#main {
+  text-align: center;
+  position: relative;
+  top: 30%;
+  background: #00000055;
+  width: 500px;
+  margin: auto;
+  padding: 55px 20px;
+  border-radius: 6px;
+}
+
+input {
+  background: #00000055;
+  color: white;
+  border: 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: 50%;
+  position: absolute;
+  right: 16px;
+}
+
+.red {
+  color: red;
+}
+
+label {
+  position: absolute;
+  left: 16px;
+}
+
+div#cols {
+  padding: 5px 10px;
+}
+
+
+#forcebsod {
+  background: #00000088;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  font-size: 125%;
+  border-radius: 18px;
+  margin: 14px;
+  transition: all 0.4s;
+}
+
+#forcebsod:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background: #00770088;
+}
+
+div#winMenu {
+  position: absolute;
+  top: 0;
+  left: 4.5%;
+  scale: 1.1;
+  background: linear-gradient(180deg, #99B8D4, #C3CAF8);
+  width: 91%;
+  text-align: right;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  margin: auto;
+}
