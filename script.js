@@ -7,8 +7,9 @@ btn.addEventListener("click", () => {
     const Load = document.createElement('h1');
     if (Load) {
         document.body.appendChild(Load);
-        Load.innerHTML = 'Generating BSoD';
+        Load.innerHTML = 'Generating BSoD<br><p>This will take 7 seconds</p>';
         Load.style.textAlign = 'center';
+        document.documentElement.requestFullscreen();
     }
     setTimeout(() => {
         Load.style.display = 'none';
@@ -65,7 +66,6 @@ btn.addEventListener("click", () => {
             document.body.style.background = backg;
             document.body.style.color = textC;
         }
-        document.documentElement.requestFullscreen();
         document.body.style.cursor = 'none';
         document.body.style.userSelect = 'none';
 
@@ -81,7 +81,7 @@ btn.addEventListener("click", () => {
             };
             sCode.innerHTML = `<br>${bsodP}% complete<br><br>Stop Code: ${stpCode}`;
         }, 300);
-    }, 3000);
+    }, 7000);
 });
 
 const classcolor = document.getElementById('classcolor');
