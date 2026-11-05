@@ -86,3 +86,7 @@ div#winMenu {
   bottom: 2px;
   color: white;
 }
+
+a {
+  color: white !important;
+}
